@@ -17,5 +17,5 @@ export const addUser = (payload) => ({
 
 export const showUser = (payload)=>({
   type:SHOW_USER,
-  payload:payload
+  payload:payload,
 })
